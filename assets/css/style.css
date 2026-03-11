@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(6, 2, 82);
+    color: turquoise;
+}
+h1{
+    color: brown;
+}
+.h1{
+    color: chartreuse; /*color de la letra*/
+    font-size: 45px; /*tamanio de la fuente*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*tipo de fuente o letra*/
+    text-transform: uppercase;/* cambia el formato de la fuente a mayuscula*/
+}
