@@ -95,7 +95,7 @@ p{
 /*SERVICIOS*/
 .container-fluid{
     width: 100%;
-    
+    margin-top: 0;
 }
 .grey-dark{
     background-color: var(--grey-dark);
@@ -151,16 +151,18 @@ p{
 .title{
     color:var(--terciary-color);
     font-size: 2em;
+    margin: 0px;
 }
 .contacto{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 0;
 }
 label{
     width: 100%;
     
 }
-input[type="text"],[type="email"]{
+input[type="text"],[type="email"],[type="date"]{
     width: 100%;
     border: 1px solid gray;
     padding: 12px;
@@ -175,12 +177,24 @@ select{
     margin-bottom: 10px;
 }
 input[type="submit"]{
+    display: block;
+    margin: 20px auto;
     width: 80%;
     background-color: var(--cyan);
     color: var(--main-color);
     padding: 15px;
     border-radius: 12px;
+    border: none;      /* Elimina el borde por defecto de los botones */
+    cursor: pointer;   /* Mejora la experiencia de usuario (UX) */
+    font-weight: 600;
    
+}
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
 .contacto .col{
     padding: 30px;
