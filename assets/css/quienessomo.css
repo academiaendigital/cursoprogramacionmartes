@@ -7,7 +7,7 @@
 }
 .img-fluid{
     width: 100%; /* Obliga a la imagen a adaptarse al contenedor */
-    max-width: 600px; 
+    
     height: auto;
 
 }

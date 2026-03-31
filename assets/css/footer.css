@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
+     font-size: 0.8rem;
 }
 .logo-footer{
     max-width: 200px;
@@ -14,6 +15,7 @@
 }
 .footer ul li a{
     color: var(--white);
+    font-size: 0.8rem;
 }
 .footer ul li a:hover{
     color: var(--terciary-color);
@@ -24,7 +26,7 @@
 }
 .social-iconos a{
     color: var(--terciary-color);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding-left: 25px;
 }
 .social-iconos a:hover{
