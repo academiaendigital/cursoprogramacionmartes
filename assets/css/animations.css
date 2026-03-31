@@ -1,0 +1,38 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    color: brown;
+    animation: box; /*nombre de la animacion*/
+    animation-duration: 5s;/*tiempo de la animacion*/
+    animation-iteration-count: infinite;
+    position: relative;
+}
+/*@keyframes box { 
+    from{ background-color: blue;}
+    to{ background-color: blueviolet;}
+    
+}*/
+
+@keyframes box {
+    0%{ background-color: aqua; left: 0px; top: 0px;}
+    25%{background-color: blueviolet;left: 600px; top: 0px;}
+    50%{background-color: cadetblue; left: 600px; top: 600px;}
+    75%{background-color: chocolate; left: 0px; top: 600px;}
+    100%{background-color: red;left: 0px; top: 0px;}
+    
+}
+.bg-primary{
+    background-color: black;
+    color: white;
+    width: 300px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 900;
+    border-radius: 9px;
+    transition: background-color width 5s;
+}
+.bg-primary:hover{
+    background-color: cadetblue;
+    width: 360px;
+}

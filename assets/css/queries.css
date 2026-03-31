@@ -1,0 +1,71 @@
+
+/* ===========================================
+   2. TABLETS (Breakpoints: 768px a 1023px)
+   Cambiamos el diseño a algo más ancho.
+   =========================================== */
+@media (min-width: 768px) {
+    /*QUIENES SOMOS*/
+ .quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+}
+/*SERVICIOS*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;/*agrega espacio entre las filas de mi grilla*/
+}
+/*FOOTER*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.mapa{
+    height: 400px;
+}
+}
+
+/* ===========================================
+   3. DESKTOP (Breakpoints: 1024px en adelante)
+   Diseño para pantallas grandes.
+   =========================================== */
+@media (min-width: 1024px) {
+    .quienes-somos{
+    display: grid;
+    grid-template-columns: auto auto; /*se divide en dos columnas*/
+}
+/*SERVICIOS*/
+.servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;/*agrega espacio entre las filas de mi grilla*/
+}
+/*FOOTER*/
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
+.logo-footer{
+    width: 300px;
+}
+/*CONTACTO*/
+.contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 0;
+}
+.mapa{
+    height: 400px;
+}
+}
